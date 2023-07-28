@@ -2,11 +2,14 @@
 Bnew Boardgame
 
 # Version
+```
 node 18.17.0
 npm 9.6.7
 yarn 1.22.19
+```
 
 # Eslint
+```
 yarn create react-app [프로젝트명] - -template typescript
 cd [프로젝트명]
 yarn start
@@ -40,3 +43,4 @@ What line endings do you use?
 - windows
 Do you require semicolons?
 - Yes
+```
