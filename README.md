@@ -1,7 +1,9 @@
 # Boardgame
+
 Bnew Boardgame
 
 # Version
+
 ```
 node 18.17.0
 npm 9.6.7
@@ -9,6 +11,7 @@ yarn 1.22.19
 ```
 
 # Eslint
+
 ```
 yarn create react-app [프로젝트명] - -template typescript
 cd [프로젝트명]
@@ -16,7 +19,9 @@ yarn start
 yarn add - -save react react-dom typescript
 yarn add - -save-dev @types/react @types/react-dom @types/node
 yarn create @eslint/config
+```
 
+```
 How would you like to use ESLint?
 - To check syntax, find problems, and enforce code style
 What type of modules does your project use?
@@ -43,4 +48,21 @@ What line endings do you use?
 - windows
 Do you require semicolons?
 - Yes
+```
+
+```
+yarn add -D prettier eslint-config-prettier
+```
+
+vscode setting.json
+
+```
+{
+  "code-runner.runInTerminal": true,
+  "editor.codeActionsOnSave": { "source.fixAll.eslint": true },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "prettier.endOfLine": "crlf"
+}
 ```
