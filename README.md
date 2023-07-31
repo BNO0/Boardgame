@@ -50,7 +50,7 @@ Do you require semicolons?
 - Yes
 ```
 
-# Eslint
+# Prettier
 
 ```
 yarn add -D prettier eslint-config-prettier
@@ -68,3 +68,4 @@ yarn add -D prettier eslint-config-prettier
   "prettier.endOfLine": "crlf"
 }
 ```
+
