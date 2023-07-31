@@ -50,11 +50,13 @@ Do you require semicolons?
 - Yes
 ```
 
+# Eslint
+
 ```
 yarn add -D prettier eslint-config-prettier
 ```
 
-vscode setting.json
+# vscode setting.json
 
 ```
 {
